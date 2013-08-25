@@ -45,7 +45,6 @@ namespace LD27
             graphics = new GraphicsDeviceManager(this);
             graphics.PreferredBackBufferWidth = 480;
             graphics.PreferredBackBufferHeight = 800;
-            graphics.IsFullScreen = false;
             Content.RootDirectory = "Content";
         }
 
@@ -53,7 +52,7 @@ namespace LD27
         /// Allows the game to perform any initialization it needs to before starting to run.
         /// This is where it can query for any required services and load any non-graphic
         /// related content.  Calling base.Initialize will enumerate through any components
-        /// and initialize them as well.
+        /// and initialize them as well
         /// </summary>
         protected override void Initialize()
         {
